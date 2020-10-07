@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Staatliches&display=swap" rel="stylesheet">  
+  <title>Coming Soon!</title>
+</head>
+  <body>
+    <div class="hero">
+      <div class="flex-container">
+        <div class="text-container">
+
+            <h1>COMING SOON!</h1>
+            <p>LOCAL PASTRY SHOP NEAR YOU</p>
+        </div>
+        <form action="#">
+          <fieldset>
+            <legend>Sign-up to our <br> newsletter!</legend>
+            <label for="name">Name*</label>
+            <input type="text" placeholder="Enter your name" name="name" id="name">
+            <label for="email">E-mail*</label>
+            <input type="email" placeholder="Enter your email" name="email" id="email">
+            <label for="meal-select">Favorite meal of the day: </label>
+            <select name="meal-select"  id="mealSelect">
+              <option value="" selected>Favorite pastry...</option>
+              <option value="pies">Pies</option>
+              <option value="muffins">Muffins</option>
+              <option value="crepes">Crepes</option>
+              <option value="croissants">Croissants</option>
+            </select>
+            <div class="check-container">
+              <input type="checkbox" name="promo" id="promo">
+              <label for="promo">I would like to recieve promotional emails</label>
+            </div>
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
