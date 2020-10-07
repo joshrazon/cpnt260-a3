@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+/* Hero Section */
 .hero {
   display: flex;
   align-items: center;
@@ -37,6 +38,7 @@
   color: white;
 }
 
+/* Hero text section */
 .text-container h1 {
   font-family: 'Staatliches', cursive;
   /* Fluid Font Size */
@@ -54,7 +56,7 @@
   margin-top: 2em;
 }
 
-/* Form */
+/* Hero Form Section */
 fieldset {
   /* Reset */
   border: none;
@@ -88,9 +90,18 @@ fieldset button {
   color: white;
   border-radius: 4px;
   font-size: 1.3rem;
+  transition: all .3s;
 }
 
+fieldset button:hover {
+  background-color: black;
+  color: #00c220;
+  border: 1px solid #00c220;
+}
 
+fieldset button:active {
+  transform: scale(.9);
+}
 
 fieldset input, fieldset select {
   max-width: 30ch;
@@ -107,7 +118,7 @@ legend {
   max-width: 30ch;
 }
 
-/* Mobile View */
+/* Media Queries */
 @media (max-width: 1250px) {
   .flex-container {
     flex-direction: column;
