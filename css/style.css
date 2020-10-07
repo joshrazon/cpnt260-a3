@@ -117,17 +117,6 @@ legend {
 
   .text-container p {
     margin-top: .5em;
-  }
-
-  fieldset {
-    
-  }
-    
-}
-
-@media (max-width: 590px) {
-  .text-container {
-    width: 80%;
-  }
+  } 
 }
 
