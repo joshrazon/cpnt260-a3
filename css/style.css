@@ -113,10 +113,24 @@ legend {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    height: 80vh;
+    width: 90%;
   }
 
   .text-container p {
     margin-top: .5em;
   } 
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    height: 90vh;
+    width: 100%;
+  }
+
+  .flex-container h1 {
+    letter-spacing: normal;
+  }
 }
 
